@@ -1,0 +1,27 @@
+a.link-note {
+    color: #0051c3;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 1px solid #0051c3 ;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .inner-addon { 
+    position: relative; 
+}
+
+
+.glyphi.search {
+    background: url(../../../assets/images/search.png);
+    background-size: cover; 
+}

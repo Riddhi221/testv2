@@ -1,0 +1,50 @@
+<nav class="nav-container">
+	<span class="pr-3">
+		<img src="assets/icons/back-arrow.svg" alt="back" width="5%">
+	</span>
+	<span class="page-heading">
+		{{pageTitle}}
+	</span>
+	<div>
+		<app-stages></app-stages>
+	</div>
+</nav>
+
+
+<form>
+    <div class="content-container">
+	<div class="form-group pb-3">
+		<input type="clientId" class="form-control" placeholder="PAN Number">
+	</div>
+    
+    <div class="form-group pb-3">
+        <input type="text"
+        placeholder="Date oF Birth DD/MM/YYYY"
+        class="form-control"   placement="bottom"
+        bsDatepicker>      
+    </div>
+    
+	<div class="form-group pb-3">
+		<input type="password" class="form-control" placeholder="Bank Account Number">
+    </div>
+
+    <div class="form-group pb-3 example">
+		<input type="text"  class="form-control" placeholder="IFSC" style="width:95%;display: inline;padding-left: 0%;">
+        <img src="assets/images/search.png" alt="back"  width="5%">
+    </div>
+
+	<div class="form-group pb-3">
+		<div style="color:#727272;font-size: smaller;">By clicking on proceed you confirm to pay 
+			and  agree to the 
+			<a class="link-note" >Terms and conditions</a>
+        </div>
+        
+        <div class="col-12 pt-3">
+			<button type="button" class="btn btn-success float-right">PROCEED</button>
+		</div>		
+    </div>
+    </div>
+</form>
+
+    
+
